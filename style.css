@@ -5,11 +5,14 @@
     --dark: #111827;
     --light: #ecf0f1;
 }
-*{
+* {
     margin: 0;
     padding: 0;
-    
-}
+    box-sizing: border-box;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -434,6 +437,5 @@ transform: translateX(-50%);
     }
     .navbar>.container{
         background-color: #ffffff;
-        /* border-radius: 0 0 15px 15px; */
     }
 }
