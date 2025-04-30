@@ -418,4 +418,8 @@ transform: translateX(-50%);
     .navconbtn{
         margin-bottom: 16px;
     }
+    .navbar>.container{
+        background-color: #ffffff;
+        /* border-radius: 0 0 15px 15px; */
+    }
 }
