@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenMark International | AI-Powered Carbon Solutions</title>
-    <!-- favicon -->
-     <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.svg" alt="" class="w-auto navlogo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mx-2" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item ms-lg-3">
-                        <a class="btn btn-primary btn-lg rounded-pill px-4 navconbtn" href="quote.html" style="background-color: var(--primary); border-color: var(--primary);">Get a Quote</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php
+include 'navbar.php';
+?>
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
@@ -68,7 +25,7 @@
 
 
     <section class="py-5 bg-white">
-        <div class="container-fluid">
+        <div class="container-fluid" id="container-fluid">
           <p class="text-center text-muted mb-5" style="font-size: 1.5rem; color: #443324;">Trusted by leading organizations worldwide</p>
           <div class="logo-slider-wrapper">
             <div class="logo-slider">
@@ -269,7 +226,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 bg-white d-flex align-items-center p-4">
-                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="AI Dashboard" class="img-fluid rounded shadow">
+                        <img src="https://img.freepik.com/free-vector/technological-ecology-concept_23-2148433145.jpg?t=st=1746086708~exp=1746090308~hmac=8bde0dbff8453cbfa7c264325a5321e8b2710be01e6f7ce5f22130003454f3df&w=740" alt="AI Dashboard" class="img-fluid rounded shadow">
                     </div>
                 </div>
             </div>
@@ -452,123 +409,6 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-4">
-                    <a href="#" class="footer-logo">
-                    </a>
-                    <img src="assets/images/logo without text.svg" alt="" width="100px" style="margin-bottom: 10px;">
-                    <h3 class="text-lg font-semibold mb-4"><span style="color:#34723a ;">GreenMark </span>International</h3>
-                    <p class="footer-about text-gray-400">Pioneering AI-driven carbon solutions for a sustainable future.</p>
-                </div>
-                
-                <div class="col-6 col-lg-2">
-                    <div class="footer-links">
-                        <h5>Services</h5>
-                        <ul>
-                            <li><a href="#">Carbon Credits</a></li>
-                            <li><a href="#">MRV Systems</a></li>
-                            <li><a href="#">CBAM Solutions</a></li>
-                            <li><a href="#">Waste Management</a></li>
-                            <li><a href="#">AI Analytics</a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-lg-2">
-                    <div class="footer-links">
-                        <h5>Company</h5>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Press</a></li>
-                            <li><a href="#">Partners</a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-lg-2">
-                    <div class="footer-links">
-                        <h5>Legal</h5>
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">GDPR</a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-6 col-lg-2">
-                    <div class="footer-links">
-                        <h5>Resources</h5>
-                        <ul>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Webinars</a></li>
-                            <li><a href="#">Sustainability Guides</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <p class="mb-md-0">© 2023 GreenMark International. All rights reserved.</p>
-                    </div>
-                    <div class="col-md-6 text-md-end">
-                        <p class="mb-0">Sustainable technology for a greener tomorrow.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-        
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-                    
-                    // Close mobile menu if open
-                    const navbarCollapse = document.querySelector('.navbar-collapse');
-                    if (navbarCollapse.classList.contains('show')) {
-                        navbarCollapse.classList.remove('show');
-                    }
-                }
-            });
-        });
-        
-        // Initialize Bootstrap scrollspy
-        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-            target: '.navbar',
-            offset: 100
-        });
-    </script>
-</body>
-</html>
+  <?php
+  include 'footer.php';
+  ?>
